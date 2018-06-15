@@ -1,0 +1,331 @@
+/* Variables */
+/* Base */
+/* line 9, ../sass/app.scss */
+html, body {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, ../sass/app.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 18, ../sass/app.scss */
+.container {
+  margin: 0 20px;
+  margin-bottom: 150px;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 23, ../sass/app.scss */
+.site-content {
+  padding-top: 66px;
+}
+
+/* Header */
+/* line 27, ../sass/app.scss */
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 66px;
+  line-height: 66px;
+  color: #FFF;
+  background-color: #2e7d32;
+}
+
+/* line 37, ../sass/app.scss */
+.header__logo {
+  font-weight: bold;
+  padding: 0 25px;
+  width: 66px;
+  height: 66px;
+  float: left;
+  background-image: url("img/logoplay.jpg");
+  background-size: cover;
+}
+
+/* Menu */
+/* line 50, ../sass/app.scss */
+.menu {
+  float: right;
+}
+/* line 52, ../sass/app.scss */
+.menu a {
+  padding: 0 10px;
+}
+/* line 53, ../sass/app.scss */
+.menu a:hover {
+  color: #c6ff00;
+}
+
+/* Responsive */
+@media only screen and (max-width: 916px) {
+  /* line 9, ../sass/responsive.scss */
+  .site-pusher, .site-container {
+    height: 100%;
+  }
+
+  /* line 10, ../sass/responsive.scss */
+  .site-container {
+    overflow: hidden;
+  }
+
+  /* line 13, ../sass/responsive.scss */
+  .site-pusher {
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+
+  /* line 17, ../sass/responsive.scss */
+  .site-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background-color: #FFF;
+  }
+
+  /* line 28, ../sass/responsive.scss */
+  .header {
+    position: static;
+  }
+
+  /* line 31, ../sass/responsive.scss */
+  .header__icon {
+    position: relative;
+    display: block;
+    float: right;
+    width: 50px;
+    height: 66px;
+    cursor: pointer;
+  }
+  /* line 40, ../sass/responsive.scss */
+  .header__icon:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 0;
+    top: 16px;
+    left: 15px;
+    -moz-box-shadow: 0 10px 0 1px #FFF, 0 16px 0 1px #FFF, 0 22px 0 1px #FFF;
+    -webkit-box-shadow: 0 10px 0 1px #FFF, 0 16px 0 1px #FFF, 0 22px 0 1px #FFF;
+    box-shadow: 0 10px 0 1px #FFF, 0 16px 0 1px #FFF, 0 22px 0 1px #FFF;
+  }
+
+  /* line 51, ../sass/responsive.scss */
+  .menu {
+    position: absolute;
+    left: 0;
+    top: 66px;
+    bottom: 66px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background-color: #276a2b;
+    width: 250px;
+  }
+  /* line 60, ../sass/responsive.scss */
+  .menu a {
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #2e7d32;
+  }
+
+  /* line 70, ../sass/responsive.scss */
+  .with--sidebar .site-pusher {
+    -moz-transform: translateX(250px);
+    -ms-transform: translateX(250px);
+    -webkit-transform: translateX(250px);
+    transform: translateX(250px);
+  }
+  /* line 71, ../sass/responsive.scss */
+  .with--sidebar .site-cache {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+@media screen and (max-width: 412px) {
+  /* line 83, ../sass/responsive.scss */
+  .footer {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 89, ../sass/responsive.scss */
+  .menu-content {
+    font-size: 12px;
+  }
+}
+/* line 60, ../sass/app.scss */
+.menu-content {
+  font-family: Roboto;
+  background: yellowgreen;
+  padding: 5px;
+  width: 90px;
+  z-index: 100;
+  position: fixed;
+}
+
+/* line 68, ../sass/app.scss */
+.menu-content a {
+  font-size: 0.9em;
+  display: flex;
+  margin: 0 0.5em;
+  color: white;
+}
+
+/* line 76, ../sass/app.scss */
+.menu-content a:hover {
+  color: #c6ff00;
+}
+
+/*Title bottom header*/
+/* line 82, ../sass/app.scss */
+h1 {
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+/*List room*/
+/* line 89, ../sass/app.scss */
+.list-room {
+  width: 80%;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 95, ../sass/app.scss */
+.list-room-price {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* line 102, ../sass/app.scss */
+h2 {
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+/* line 108, ../sass/app.scss */
+.price {
+  font-size: 2.5vw;
+  align-self: center;
+}
+
+/* line 113, ../sass/app.scss */
+.img-room {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 30%;
+}
+
+/* line 121, ../sass/app.scss */
+.list-description {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* line 126, ../sass/app.scss */
+.list-description p {
+  text-align: left;
+  font-size: 2vw;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* line 133, ../sass/app.scss */
+a.button-list {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+/* line 147, ../sass/app.scss */
+a.button-list:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+@media all and (max-width: 30em) {
+  /* line 152, ../sass/app.scss */
+  a.button-list {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+/*Footer*/
+/* line 160, ../sass/app.scss */
+.footer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  line-height: 33px;
+  color: #FFF;
+  background-color: #2e7d32;
+}
+/* line 171, ../sass/app.scss */
+.footer a:hover {
+  color: blue;
+}
+
+/* line 174, ../sass/app.scss */
+.menu-footer {
+  display: inline-flex;
+  margin: auto;
+}
+/* line 177, ../sass/app.scss */
+.menu-footer a {
+  padding: 0 10px;
+}
+/* line 178, ../sass/app.scss */
+.menu-footer a:hover {
+  color: #c6ff00;
+}
+
+/* line 181, ../sass/app.scss */
+.footer-link-copy {
+  justify-content: space-around;
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+}
