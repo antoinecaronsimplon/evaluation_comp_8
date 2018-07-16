@@ -5,7 +5,6 @@ $menu-width:250px!default;
 $header-bg:#2e7d32;
  
 /* TEST RESPONSIVE */
-// (min-width: 280px)
 @media only screen and (max-width: 952px) {
 
     /* MENU-HEADER */
@@ -62,7 +61,6 @@ $header-bg:#2e7d32;
         bottom: 66px;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
-        //background-color: darken($header-bg, 5);
         background-color: darken(#6D071A, 5);
         width: $menu-width;
         a {
@@ -91,7 +89,6 @@ $header-bg:#2e7d32;
     /* END MENU-HEADER */
 
 }
-// min-width 418px
 @media only screen and (max-width: 700px) {
     h1 {
         font-size: 1.5em;
@@ -176,16 +173,6 @@ $header-bg:#2e7d32;
     font-size: 1em;
     }
 
-    // .list-description p {
-    //     font-size: 0.75em;
-    // }
-
-    // .button-list {
-    //     font-size: 0.75em;
-    // }
-
-
-
     .side-menu {
         width: 70px;
     }
@@ -193,10 +180,6 @@ $header-bg:#2e7d32;
     .side-menu li ul li {
         font-size: 0.75em;
     }
-
-    // .menu {
-    //     font-size: 0.75em;
-    // }
 
     .footer {
         height: 55px;
@@ -216,69 +199,4 @@ $header-bg:#2e7d32;
         }
     }
 }
-
-// @media screen and (min-width: 280px) and (max-width: 319px) {
-
-//     h1 {
-//         font-size: 0.75em;
-//         margin-top: 13px;
-//         margin-bottom: 13px;
-//     }
-
-//     .container {
-//         margin-bottom: 13px;
-//     }
-
-//     .list-room {
-//         width: 225px;
-//     }
-      
-//     h2 {
-//     font-size: 0.75em;
-//     }
-    
-//     .price {
-//     font-size: 0.75em;
-//     }
-
-//     .list-description p {
-//         font-size: 0.6em;
-//     }
-
-//     .button-list {
-//         font-size: 0.75em;
-//       }
-
-
-
-//     .side-menu {
-//         width: 70px;
-//     }
-
-//     .side-menu li ul li {
-//         font-size: 0.75em;
-//     }
-
-//     .menu {
-//         font-size: 0.75em;
-//     }
-
-//     .footer {
-//         height: 50px;
-//         line-height: 15px;
-//     }
-      
-//     .menu-footer {
-//         a {
-//             font-size: 0.5em;
-//             margin: 0.5em;
-//         }
-//     }
-    
-//     .footer-link-copy {
-//         span , a{
-//             font-size: 0.5em;
-//         }
-//     }
-// }
 /* END TEST REPONSIVE */

@@ -226,15 +226,7 @@ a.button-list:hover {
   border-radius: 0.12em;
 }
 
-// @media all and (max-width:30em) {
-//   a.button-list {
-//     display:block;
-//     margin:0.4em auto;
-//     }
-//} 
-
 /*Footer*/
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -245,7 +237,6 @@ a.button-list:hover {
   height: 100px;
   line-height: 33px;
   color: #FFF;
-  //background-color: $header-bg;
   background-color: black;
   a:hover {
     color: #6D071A;

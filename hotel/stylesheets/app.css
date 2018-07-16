@@ -77,17 +77,17 @@ a {
 /* TEST RESPONSIVE */
 @media only screen and (max-width: 952px) {
   /* MENU-HEADER */
-  /* line 13, ../sass/responsive.scss */
+  /* line 12, ../sass/responsive.scss */
   .site-pusher, .site-container {
     height: 100%;
   }
 
-  /* line 16, ../sass/responsive.scss */
+  /* line 15, ../sass/responsive.scss */
   .site-container {
     overflow: hidden;
   }
 
-  /* line 19, ../sass/responsive.scss */
+  /* line 18, ../sass/responsive.scss */
   .site-pusher {
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
@@ -99,7 +99,7 @@ a {
     transform: translateX(0px);
   }
 
-  /* line 23, ../sass/responsive.scss */
+  /* line 22, ../sass/responsive.scss */
   .site-content {
     position: absolute;
     top: 0;
@@ -112,12 +112,12 @@ a {
     background-color: gray;
   }
 
-  /* line 34, ../sass/responsive.scss */
+  /* line 33, ../sass/responsive.scss */
   .header {
     position: static;
   }
 
-  /* line 37, ../sass/responsive.scss */
+  /* line 36, ../sass/responsive.scss */
   .header__icon {
     position: relative;
     display: block;
@@ -126,7 +126,7 @@ a {
     height: 66px;
     cursor: pointer;
   }
-  /* line 46, ../sass/responsive.scss */
+  /* line 45, ../sass/responsive.scss */
   .header__icon:after {
     content: '';
     position: absolute;
@@ -140,7 +140,7 @@ a {
     box-shadow: 0 10px 0 1px #FFF, 0 16px 0 1px #FFF, 0 22px 0 1px #FFF;
   }
 
-  /* line 58, ../sass/responsive.scss */
+  /* line 57, ../sass/responsive.scss */
   .menu {
     position: absolute;
     left: 0;
@@ -151,7 +151,7 @@ a {
     background-color: #550514;
     width: 250px;
   }
-  /* line 68, ../sass/responsive.scss */
+  /* line 66, ../sass/responsive.scss */
   .menu a {
     display: block;
     height: 40px;
@@ -160,14 +160,14 @@ a {
     border-bottom: 1px solid #2e7d32;
   }
 
-  /* line 78, ../sass/responsive.scss */
+  /* line 76, ../sass/responsive.scss */
   .with--sidebar .site-pusher {
     -moz-transform: translateX(250px);
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
     transform: translateX(250px);
   }
-  /* line 81, ../sass/responsive.scss */
+  /* line 79, ../sass/responsive.scss */
   .with--sidebar .site-cache {
     position: absolute;
     top: 0;
@@ -180,125 +180,125 @@ a {
   /* END MENU-HEADER */
 }
 @media only screen and (max-width: 700px) {
-  /* line 96, ../sass/responsive.scss */
+  /* line 93, ../sass/responsive.scss */
   h1 {
     font-size: 1.5em;
     margin-top: 50px;
     margin-bottom: 50px;
   }
 
-  /* line 102, ../sass/responsive.scss */
+  /* line 99, ../sass/responsive.scss */
   .container {
     margin-bottom: 50px;
   }
 
-  /* line 106, ../sass/responsive.scss */
+  /* line 103, ../sass/responsive.scss */
   .list-room {
     width: 375px;
   }
 
-  /* line 110, ../sass/responsive.scss */
+  /* line 107, ../sass/responsive.scss */
   h2 {
     font-size: 1em;
   }
 
-  /* line 114, ../sass/responsive.scss */
+  /* line 111, ../sass/responsive.scss */
   .price {
     font-size: 1em;
   }
 
-  /* line 118, ../sass/responsive.scss */
+  /* line 115, ../sass/responsive.scss */
   .list-description p {
     font-size: 0.75em;
   }
 
-  /* line 122, ../sass/responsive.scss */
+  /* line 119, ../sass/responsive.scss */
   .button-list {
     font-size: 0.75em;
   }
 
-  /* line 126, ../sass/responsive.scss */
+  /* line 123, ../sass/responsive.scss */
   .side-menu {
     width: 90px;
   }
 
-  /* line 130, ../sass/responsive.scss */
+  /* line 127, ../sass/responsive.scss */
   .side-menu li ul li {
     font-size: 0.75em;
   }
 
-  /* line 134, ../sass/responsive.scss */
+  /* line 131, ../sass/responsive.scss */
   .menu {
     font-size: 0.75em;
   }
 
-  /* line 138, ../sass/responsive.scss */
+  /* line 135, ../sass/responsive.scss */
   .footer {
     height: 65px;
     line-height: 25px;
   }
 
-  /* line 144, ../sass/responsive.scss */
+  /* line 141, ../sass/responsive.scss */
   .menu-footer a {
     font-size: 0.75em;
   }
 
-  /* line 150, ../sass/responsive.scss */
+  /* line 147, ../sass/responsive.scss */
   .footer-link-copy span, .footer-link-copy a {
     font-size: 0.75em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 417px) {
-  /* line 157, ../sass/responsive.scss */
+  /* line 154, ../sass/responsive.scss */
   h1 {
     font-size: 1.2em;
     margin-top: 30px;
     margin-bottom: 30px;
   }
 
-  /* line 163, ../sass/responsive.scss */
+  /* line 160, ../sass/responsive.scss */
   .container {
     margin-bottom: 40px;
   }
 
-  /* line 167, ../sass/responsive.scss */
+  /* line 164, ../sass/responsive.scss */
   .list-room {
     width: 290px;
   }
 
-  /* line 171, ../sass/responsive.scss */
+  /* line 168, ../sass/responsive.scss */
   h2 {
     font-size: 1em;
   }
 
-  /* line 175, ../sass/responsive.scss */
+  /* line 172, ../sass/responsive.scss */
   .price {
     font-size: 1em;
   }
 
-  /* line 189, ../sass/responsive.scss */
+  /* line 176, ../sass/responsive.scss */
   .side-menu {
     width: 70px;
   }
 
-  /* line 193, ../sass/responsive.scss */
+  /* line 180, ../sass/responsive.scss */
   .side-menu li ul li {
     font-size: 0.75em;
   }
 
-  /* line 201, ../sass/responsive.scss */
+  /* line 184, ../sass/responsive.scss */
   .footer {
     height: 55px;
     line-height: 18px;
   }
 
-  /* line 207, ../sass/responsive.scss */
+  /* line 190, ../sass/responsive.scss */
   .menu-footer a {
     font-size: 0.6em;
     margin: 0.6em;
   }
 
-  /* line 214, ../sass/responsive.scss */
+  /* line 197, ../sass/responsive.scss */
   .footer-link-copy span, .footer-link-copy a {
     font-size: 0.6em;
   }
@@ -472,7 +472,7 @@ a.button-list:hover {
 }
 
 /*Footer*/
-/* line 238, ../sass/app.scss */
+/* line 230, ../sass/app.scss */
 .footer {
   display: flex;
   flex-direction: column;
@@ -485,32 +485,32 @@ a.button-list:hover {
   color: #FFF;
   background-color: black;
 }
-/* line 250, ../sass/app.scss */
+/* line 241, ../sass/app.scss */
 .footer a:hover {
   color: #6D071A;
 }
 
-/* line 255, ../sass/app.scss */
+/* line 246, ../sass/app.scss */
 .menu-footer {
   display: inline-flex;
   margin: auto;
 }
-/* line 258, ../sass/app.scss */
+/* line 249, ../sass/app.scss */
 .menu-footer a {
   padding: 0;
   font-size: 1em;
 }
-/* line 262, ../sass/app.scss */
+/* line 253, ../sass/app.scss */
 .menu-footer a:hover {
   color: #6D071A;
 }
 
-/* line 267, ../sass/app.scss */
+/* line 258, ../sass/app.scss */
 .menu-footer a {
   margin-right: 1em;
 }
 
-/* line 271, ../sass/app.scss */
+/* line 262, ../sass/app.scss */
 .footer-link-copy {
   justify-content: space-around;
   display: inline-flex;
